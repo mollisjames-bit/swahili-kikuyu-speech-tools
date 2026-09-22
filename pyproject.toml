@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "swahili-kikuyu-speech-tools"
+version = "0.1.0"
+authors = [
+  { name = "James Nderi", email = "jamesnderi.dev@gmail.com" },
+]
+description = "Lightweight, zero-dependency speech segmentation and phonetic alignment tools for Swahili and Kikuyu (Gikuyu)"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Text Processing :: Linguistic",
+]
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://github.com/jamesnderi/swahili-kikuyu-speech-tools"
+"Bug Tracker" = "https://github.com/jamesnderi/swahili-kikuyu-speech-tools/issues"
